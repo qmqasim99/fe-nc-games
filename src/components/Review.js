@@ -81,7 +81,7 @@ const Review = () => {
             </div>
             <p></p>
             <h3>Comment Count: {review.comment_count}</h3>
-            <Comments review_id={review.review_id} />
+            <Comments review_id={review_id} />
           </div>
         </>
       )}

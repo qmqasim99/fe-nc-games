@@ -19,7 +19,7 @@ const Comments = ({ review_id }) => {
     getReviewComments(review_id)
       .then((data) => {
         setIsLoading(false);
-        console.log(data);
+
         setComments(data);
       })
       .catch((error) => {

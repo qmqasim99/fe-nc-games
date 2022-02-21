@@ -38,7 +38,6 @@ const PostComment = ({ handleOnSubmit }) => {
         <label>Post new comments: </label>
 
         <input
-          style="width: 300px"
           type="textarea"
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}

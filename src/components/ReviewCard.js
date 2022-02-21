@@ -12,9 +12,8 @@ const ReviewCard = ({ review }) => {
             src={review.review_img_url}
             alt={review.title}
           />
-          <p>
-            <h3>{review.title}</h3>
-          </p>
+          <h3>{review.title}</h3>
+          <p></p>
           <p>
             <AccountCircleIcon
               style={{ verticalAlign: 'middle', margin: '3px' }}
